@@ -11,7 +11,6 @@
 ## 介绍
 * 拯救设计师找寻工具的苦恼
 * 更好实现本地化输出
-* 
 
 ## 功能特性
 
@@ -38,7 +37,9 @@
 *  压缩率修改
 *  自定义输出路径
 
- <img src="./img/convert.png" width = "200" height = "140"  align=center />  
+ <img src="./img/convert.png" width = "600" height = "320"  align=center />  
+
+<br/>
 
 使用压缩功能   
 * 可压缩JPG/PNG/GIF/WEBP文件
@@ -46,10 +47,12 @@
 * 输出尺寸修改
 * 压缩率修改
 
- <img src="./img/compress.png" width = "200" height = "140" align=center />  
+ <img src="./img/compress.png" width = "600" height = "320" align=center /> 
+
+<br/>
 
 使用EXIF功能
 * 输入为JPG/PNG
 * 查看照片所有信息
 
- <img src="./img/exif.png" width = "200" height = "140" align=center />  
+ <img src="./img/exif.png" width = "600" height = "320" align=center />  
