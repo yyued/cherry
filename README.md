@@ -8,6 +8,14 @@
 
 <br>  
 
+<div align="center">
+
+ ![](https://img.shields.io/badge/Releases-v0.0.1-blue.svg) ![]()
+
+</div>
+
+<br>  
+
 ## 介绍
 * 拯救设计师找寻工具的苦恼
 * 更好实现本地化输出
