@@ -37,7 +37,7 @@
 *  压缩率修改
 *  自定义输出路径
 
- <img src="./img/convert.png" width = "600" height = "320"  align=center />  
+ <img src="./img/convert.png" width = "600" height = "420"/>  
 
 <br/>
 
@@ -47,7 +47,7 @@
 * 输出尺寸修改
 * 压缩率修改
 
- <img src="./img/compress.png" width = "600" height = "320" align=center /> 
+ <img src="./img/compress.png" width = "600" height = "420"/> 
 
 <br/>
 
@@ -55,4 +55,4 @@
 * 输入为JPG/PNG
 * 查看照片所有信息
 
- <img src="./img/exif.png" width = "600" height = "320" align=center />  
+ <img src="./img/exif.png" width = "600" height = "420"/>  
