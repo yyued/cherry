@@ -1,0 +1,133 @@
+html body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.main {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 563px;
+  transform: translateY(-55%);
+}
+.logo{
+  position: relative;
+  width: 222px;
+  height: 222px;
+  margin: 0 auto;
+  background-image: url('../img/logo.png');
+  background-size: cover;
+}
+.logo::after{
+  content: 'v 0.0.1';
+  position: absolute;
+  right: 14px;  
+  top: 164px;
+  font-size: 14px;
+  font-family: 'Helvetica';
+}
+.br {
+  width: 50px;
+  height: 1px;
+  background: #000;
+  margin: 10px auto 0 auto;
+}
+.title {
+  text-align: center;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 39px;
+}
+.content {
+  width: 641px;
+  height: 135px;
+  margin: 0 auto;
+}
+.content-icon {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  color: #7EAD83;
+  line-height: 27px;
+}
+.content-icon:before {
+  font-size: 18px;
+}
+.content div {
+  float: left;
+  margin-top: 20px;
+  width: 60%;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+}
+.content div:nth-child(2n) {
+  width: 40%;
+}
+.content div:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.content span {
+  margin-left: 7px;
+}
+.buttons {
+  display: flex;
+  margin: 60px auto 0 auto;
+  width: 550px;
+  height: 50px;
+}
+.buttons .mac,.buttons .window {
+  display: inline-block;
+  color: #ffffff;
+  margin-right: 50px;
+  width: 150px;
+  height: 50px;
+  background: #E5507D;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.buttons .tip {
+  display: inline-block;
+  width: 150px;
+  height: 48px;
+  color: #E5507D;
+  border: 1px solid #E5507D;
+  border-radius: 6px;
+  line-height: 48px;
+  text-align: center;
+  text-decoration: none;
+}
+.buttons-icon {
+  margin-right: 10px;
+}
+
+.github {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 60px 60px 0;
+  border-color: transparent #cccccc transparent transparent;
+  cursor: pointer;
+}
+.github-icon {
+  position: absolute;
+  top: 7px;
+  right: -50px;
+  transform: rotate(45deg);
+}
+.github-icon::before{
+  color: #000;
+  font-size: 25px;
+}
