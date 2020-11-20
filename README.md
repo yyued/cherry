@@ -31,12 +31,12 @@
 
 ## 快速使用
 
-下载相应版本  
+### 下载相应版本  
 
-* [Mac]() 
-* [Windows]() 
+* [Mac](https://yyued.github.io/cherry/) 
+* [Windows](https://yyued.github.io/cherry/) 
 
-使用转换功能  
+### 使用转换功能  
 *  输入为SVGA/序列帧
 *  输出为WebP/APNG/GIF
 *  输出尺寸修改
@@ -49,7 +49,7 @@
 
 <br/>
 
-使用压缩功能   
+### 使用压缩功能   
 * 可压缩JPG/PNG/GIF/WEBP文件
 * 可使用TinyPNG在线压缩
 * 输出尺寸修改
