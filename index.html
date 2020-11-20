@@ -7,10 +7,14 @@
   <link rel="shortcut icon" href="./img/Cherry.ico">
   <link rel="stylesheet" href="./style/index.css">
   <link rel="stylesheet" href="//at.alicdn.com/t/font_2211652_o12bxhh4v2p.css">
+  <script src="https://cdn.bootcdn.net/ajax/libs/esprima/2.7.3/esprima.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/js-yaml/3.9.1/js-yaml.js"></script>
 </head>
 <body>
   <div class="main">
-    <h1 class="logo" title="Cherry"></h1>
+    <h1 class="logo" title="Cherry">
+      <span class="version">v0.0.1</span>
+    </h1>
     <div class="br"></div>
     <h2 class="title">一款高效、好用的图片处理工具</h2>
     <div class="content">
@@ -30,5 +34,19 @@
   <a class="github" href="https://github.com/yyued/Cherry">
     <i class="github-icon iconfont icon-github"></i>
   </a>
+  <script>
+    var request = new XMLHttpRequest()
+    request.onreadystatechange = function () {
+      if (request.responseText) {
+        var doc = jsyaml.load(request.responseText)
+        console.log(doc);
+        document.querySelector('.version').innerHTML = 'v' + doc.version
+        document.querySelector('.window').href = 'https://legoflow.com/cherry/Cherry Setup ' + doc.version + '.exe'
+        document.querySelector('.mac').href = 'https://legoflow.com/cherry/Cherry-' + doc.version + '.dmg'
+      }
+    }
+    request.open('GET', 'https://legoflow.com/cherry/latest.yml')
+    request.send()
+  </script>
 </body>
 </html>

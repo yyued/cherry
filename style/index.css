@@ -19,8 +19,7 @@ html body{
   background-image: url('../img/logo.png');
   background-size: cover;
 }
-.logo::after{
-  content: 'v 0.0.1';
+.version {
   position: absolute;
   right: 14px;  
   top: 164px;
