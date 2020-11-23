@@ -22,12 +22,12 @@
 
 ## 功能特性
 
-✅ 一键将SVGA/序列帧合成WebP/APNG/GIF  
-✅ 动画实时预览   
-✅ 更好用的SVGA播放器   
-✅ SVGA素材下载与imageKey拷贝  
-✅ 高效多模式的图片压缩   
-✅ 照片EXIF信息查看
+✅  一键将SVGA/序列帧合成WebP/APNG/GIF  
+✅  动画实时预览   
+✅  更好用的SVGA播放器   
+✅  SVGA素材下载与imageKey拷贝  
+✅  高效多模式的图片压缩   
+✅  照片EXIF信息查看
 
 ## 快速使用
 
