@@ -59,11 +59,21 @@
 
 <br/>
 
-使用EXIF功能
+### 使用EXIF功能
 * 输入为JPG/PNG
 * 查看照片所有信息
 
  <img src="./img/exif.png" width = "600" height = "420"/>  
+
+<br/>
+
+### 使用雪碧图功能
+* 输入为JPG/PNG
+* 生成sprite图
+* 自动生成keyframe动画
+* keyframe代码导出
+
+ <img src="./img/sprite.png" width = "600" height = "420"/>  
 
 <br/>
 
