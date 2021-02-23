@@ -10,7 +10,7 @@
 
 <div align="center">
 
- ![](https://img.shields.io/badge/Releases-v0.0.1-blue.svg) ![]()
+ ![](https://img.shields.io/badge/Releases-v0.0.3-blue.svg) ![]()
 
 </div>
 
